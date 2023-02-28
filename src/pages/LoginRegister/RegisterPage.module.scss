@@ -1,0 +1,47 @@
+.wrapper {
+  width: 75%;
+}
+
+.infoUser {
+  margin: 20px 0;
+  font-size: 1.8rem;
+  & * {
+    height: 3rem;
+  }
+}
+
+.btn-showPassword {
+  display: flex;
+  align-items: center;
+  background-color: var(--gray);
+
+  &:hover,
+  &:focus {
+    border: none;
+    background-color: var(--gray);
+  }
+}
+
+.btn-register {
+  margin: 10% 0 8%;
+  width: 100%;
+  height: 3rem;
+  background-color: rgb(68 177 49);
+  color: var(--white);
+  font-size: 1.3rem;
+
+  &:hover,
+  &:focus {
+    color: var(--white);
+    background-color: #ff7675;
+  }
+}
+
+.link-login {
+  color: rgb(68 177 49);
+
+  &:hover {
+    color: rgb(68 177 49);
+    text-decoration: underline;
+  }
+}

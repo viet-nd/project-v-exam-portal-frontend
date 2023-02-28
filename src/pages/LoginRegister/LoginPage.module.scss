@@ -1,0 +1,79 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 750px;
+  background: url("../../assets/images/backgroundSignUp.png");
+  background-size: cover;
+}
+
+.container {
+  width: 45%;
+  min-height: 70%;
+  border: 1px solid transparent;
+  border-radius: 25px;
+  background-color: var(--white);
+  padding: 4%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .footerContent {
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 0;
+    bottom: 0;
+    font-size: 1rem;
+    left: 8%;
+    right: 8%;
+  }
+}
+
+.form-login {
+  width: 75%;
+}
+
+.infoLogin {
+  margin: 20px 0;
+  font-size: 1.8rem;
+
+  & * {
+    height: 3rem;
+  }
+}
+
+.btn-showPassword {
+  display: flex;
+  align-items: center;
+  background-color: var(--gray);
+
+  &:hover,
+  &:focus {
+    border: none;
+    background-color: var(--gray);
+  }
+}
+
+.btn-login {
+  margin: 10% 0 8%;
+  width: 100%;
+  height: 3rem;
+  font-size: 1.3rem;
+  background-color: rgb(68 177 49);
+  color: var(--white);
+
+  &:hover,
+  &:focus {
+    color: var(--white);
+    background-color: #ff7675;
+  }
+}
+
+.link-register {
+  color: rgb(68 177 49);
+
+  &:hover {
+    color: rgb(68 177 49);
+    text-decoration: underline;
+  }
+}

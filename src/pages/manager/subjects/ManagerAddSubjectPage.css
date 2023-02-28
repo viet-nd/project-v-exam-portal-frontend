@@ -1,0 +1,17 @@
+.managerAddSubjectPage__container {
+    display: flex;
+}
+
+.managerAddSubjectPage__content {
+    margin: 5px;
+    padding: 8px;
+    flex: 0.99;
+}
+
+.managerAddSubjectPage__content--button{
+    display: block;
+    width: 20%;
+    margin: 20px auto;
+    background-color: rgb(68 177 49);
+    color:white;
+}

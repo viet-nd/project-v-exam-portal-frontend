@@ -1,0 +1,90 @@
+.wrapper {
+  width: 100%;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  align-items: space-between;
+  justify-content: space-between;
+}
+
+.function {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  /* justify-content: center; */
+  /* align-items: center; */
+  margin-right: 15%;
+  margin-left: 5%;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 40px;
+}
+
+.btn-function {
+  margin-bottom: 10px;
+}
+
+.infor {
+  min-width: 700px;
+  /* min-height: 480px; */
+  padding: 20px 30px;
+  /* border: 1px solid var(--black); */
+  border-radius: 20px;
+  box-shadow: 1px 0px 20px 0px #888888;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.extend {
+padding: 30px 7%;
+}
+
+.extend-function {
+display: flex;
+  
+}
+
+.btn_extend-function {
+    width: 260px;
+    margin-right: 3%;
+}
+
+.change-password {
+  display: flex;
+  margin-top: 20px;
+}
+
+
+/* .userProfilePage__container {
+    display: flex;
+}
+
+.userProfilePage__sidebar {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+}
+
+.userProfilePage__content {
+    text-align: center;
+    width: 80%;
+    height: fit-content;
+    margin: 0px auto;
+}
+
+.userProfilePage__content--profilePic {
+    border: 2px solid rgb(68 177 49);
+}
+
+.userProfilePage__content--table {
+    border: 1px solid gray;
+    width: 50%;
+    margin: 20px auto;
+} */

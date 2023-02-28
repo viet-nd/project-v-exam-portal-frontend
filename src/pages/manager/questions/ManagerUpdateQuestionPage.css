@@ -1,0 +1,21 @@
+.managerUpdateQuestionPage__container {
+    padding: 20px;
+}
+
+.managerUpdateQuestionPage__content {
+margin-top: 30px;
+}
+
+.managerUpdateQuestionPage__content div {
+    margin-bottom: 30px;
+}
+
+.managerAddQuestionPage__content--text {
+}
+
+.managerAddQuestionPage__content--button {
+}
+
+.managerAddQuestionPage__content--globalImage {
+    display: flex;
+}

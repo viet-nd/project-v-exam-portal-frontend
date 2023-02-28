@@ -1,0 +1,16 @@
+.managerUpdateSubjectPage__container {
+    display: flex;
+}
+
+.managerUpdateSubjectPage__content {
+    margin: 5px;
+    padding: 8px;
+}
+
+.managerUpdateSubjectPage__content--button{
+    display: block;
+    /* width: 20%; */
+    margin: 20px auto;
+    background-color: rgb(68 177 49);
+    color:white;
+}

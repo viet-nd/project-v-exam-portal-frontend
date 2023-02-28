@@ -1,0 +1,29 @@
+.quizManualPage__container {
+  display: flex;
+  padding: 20px;
+}
+
+.quizManualPage__content {
+  width: 90%;
+  height: fit-content;
+  margin: 0px auto;
+}
+
+.quizManualPage__content--section {
+  line-height: 1px;
+  margin-bottom: 28px;
+}
+
+hr {
+  margin: 10px;
+}
+
+.quizManualPage__content--button {
+  margin: 30px auto;
+  padding: 10px 20px;
+  font-size: 15px;
+  display: block;
+  color: white;
+  background-color: rgb(68 177 49);
+  border: "1px solid grey";
+}

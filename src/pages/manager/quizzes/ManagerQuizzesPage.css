@@ -1,0 +1,43 @@
+.managerQuizzesPage__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.managerQuizzesPage__content {
+    height: fit-content;
+    padding: 8px;
+}
+
+.managerQuizzesPage__content--quizzesList {
+    width: 100% !important;
+    margin-top: 5px;
+    border-bottom-style: inset;
+    border-right-style: inset;
+    border: 1px solid grey;
+    justify-content: center;
+}
+
+.managerQuizzesPage__content--ButtonsList {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+
+.managerQuizzesPage__content--Button {
+    border: 1px solid grey;
+    margin: 3px !important;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(68 177 49);
+    margin: 0px 4px;
+    cursor: pointer;
+}
+
+.managerQuizzesPage__content--button {
+    display: block;
+    /* width: 20%; */
+    margin: 20px auto;
+    background-color: rgb(68 177 49);
+    color: white;
+}

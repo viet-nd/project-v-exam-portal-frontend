@@ -1,0 +1,26 @@
+.wrapper {
+    padding: 10px;
+}
+
+.top {
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 1px 0px 20px 0px #888888;
+    margin-bottom: 30px;
+}
+
+.title_bottom {
+    font-weight: 600;
+}
+
+.btn-title_bottom {
+    margin-left: 30px;
+}
+
+.content_bottom {
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 1px 0px 20px 0px #888888;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}

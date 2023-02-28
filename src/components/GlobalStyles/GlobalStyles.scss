@@ -1,0 +1,65 @@
+@import "normalize.css";
+// @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap");
+
+:root {
+  //colors
+  --white: #fff;
+  --black: #000;
+  --gray: #e8ebed;
+  --gray-light: #e1e9f1;
+  --text-color: #333;
+  --primary: rgba(254, 44, 85, 1);
+  --emerald: rgba(46, 204, 113,1.0);
+  --electon-blue: #0984e3;
+  --pink-glamour: #ff7675;
+
+  //variable DefaultLayout
+  --default-layout-header-height: 60px;
+  --default-layout-width: 1150px;
+  --default-layout-horizontal-spacer: 24px;
+  --sidebar-width: 356px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 80%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  text-rendering: optimizeSpeed;
+  color: var(--text-color);
+}
+
+button,
+input,
+[tabindex] {
+  outline: none;
+  border: none;
+}
+
+a[href] {
+  text-decoration: none;
+}
+
+//Custome tippy tooltip
+body {
+  .tippy-box {
+    background-color: rgba(84, 84, 84, 0.92);
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 22px;
+  }
+
+  .tippy-arrow {
+    background-color: rgba(84, 84, 84, 0.92);
+  }
+}

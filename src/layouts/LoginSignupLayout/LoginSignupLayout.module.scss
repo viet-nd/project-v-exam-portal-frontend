@@ -1,0 +1,36 @@
+.wrapper {
+  padding: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 750px;
+  background: url("../../assets/images/backgroundSignUp.png");
+  background-size: cover;
+}
+
+.container {
+  width: 45%;
+  min-height: 70%;
+  border: 1px solid transparent;
+  border-radius: 25px;
+  background-color: var(--white);
+  padding: 4%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .footerContent {
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 0;
+    bottom: 0;
+    font-size: 1rem;
+    left: 8%;
+    right: 8%;
+  }
+}
+
+

@@ -1,0 +1,61 @@
+.andminChangeInfoAccount_wrapper {
+  width: 100%;
+  padding: 20px;
+}
+
+.andminChangeInfoAccount_container {
+  display: flex;
+  align-items: space-between;
+  justify-content: space-between;
+}
+
+.andminChangeInfoAccount_function {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  /* justify-content: center; */
+  /* align-items: center; */
+  margin-right: 15%;
+  margin-left: 5%;
+}
+
+.andminChangeInfoAccount_avatar {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 40px;
+}
+
+.andminChangeInfoAccount_btn-function {
+  margin-bottom: 10px;
+}
+
+.andminChangeInfoAccount_infor {
+  min-width: 700px;
+  /* min-height: 480px; */
+  padding: 20px 30px;
+  /* border: 1px solid var(--black); */
+  border-radius: 20px;
+  /* box-shadow: 1px 0px 20px 0px #888888; */
+  font-size: 30px;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+}
+
+.andminChangeInfoAccount_extend {
+  padding: 30px 7%;
+}
+
+.andminChangeInfoAccount_extend-function {
+  display: flex;
+}
+
+.andminChangeInfoAccount_btn_extend-function {
+  width: 260px;
+  margin-right: 3%;
+}
+
+.andminChangeInfoAccount_change-password {
+  display: flex;
+  margin-top: 20px;
+}

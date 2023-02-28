@@ -1,0 +1,14 @@
+.wrapper {
+    text-align: center;
+    min-width: 50px;
+    min-height: 50px;
+    box-shadow: 1px 0px 20px 0px #888888;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+    background: linear-gradient(319deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    color: var(--white);
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+}

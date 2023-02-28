@@ -1,0 +1,13 @@
+.managerUpdateSubClassPage__container {
+  display: flex;
+  padding: 30px;
+}
+
+.managerUpdateSubClassPage__content {
+    width: 100%;
+}
+
+.managerUpdateSubClassPage__content--button {
+    margin-top: 40px;
+    background-color: var(--emerald);
+}
