@@ -1,14 +1,14 @@
 import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import { fetchSubClass, updateSubClass } from "~/actions/subClassActions";
-import { fetchSubjects } from "~/actions/subjectsActions";
-import { fetchAllUser } from "~/actions/userActions";
+import { fetchSubClass, updateSubClass } from "../../actions/subClassActions";
+import { fetchSubjects } from "../../actions/subjectsActions";
+import { fetchAllUser } from "../../actions/userActions";
 import "./AdminChangeCreateBy.css";
-import * as subClassConstants from "~/constants/subClassConstants";
-import * as userConstants from "~/constants/userConstants";
-import * as subjectsConstants from "~/constants/subjectsConstants";
-import { Button } from "~/components/Button";
+import * as subClassConstants from "../../constants/subClassConstants";
+import * as userConstants from "../../constants/userConstants";
+import * as subjectsConstants from "../../constants/subjectsConstants";
+import { Button } from "../../components/Button";
 import swal from "sweetalert";
 
 function AdminChangeCreateBy() {

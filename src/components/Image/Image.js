@@ -2,7 +2,7 @@ import classNames from "classnames/bind";
 import { useEffect, useState } from "react";
 
 import styles from "./Image.module.scss";
-import images from "~/assets/images";
+import images from "../../assets/images";
 
 const cx = classNames.bind(styles);
 

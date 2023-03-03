@@ -7,8 +7,8 @@ import { FaEye, FaEyeSlash } from "react-icons/fa";
 
 import { uploadAvatar } from "../../actions/fileActions";
 import "./AdminAddAccountPage.js";
-import { addAccount } from "~/actions/userActions";
-import * as userConstants from "~/constants/userConstants";
+import { addAccount } from "../../actions/userActions";
+import * as userConstants from "../../constants/userConstants";
 import swal from "sweetalert";
 
 

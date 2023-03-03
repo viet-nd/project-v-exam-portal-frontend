@@ -3,12 +3,12 @@ import "./ManagerStartQuiz.css";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { Button } from "react-bootstrap";
-import Question from "~/components/Question";
-import Loader from "~/components/Loader";
+import Question from "../../../components/Question";
+import Loader from "../../../components/Loader";
 import swal from "sweetalert";
-import * as quizResultConstants from "~/constants/quizResultConstants";
-import { submitQuiz } from "~/actions/quizResultActions";
-import { fetchQuizzes } from "~/actions/quizzesActions";
+import * as quizResultConstants from "../../../constants/quizResultConstants";
+import { submitQuiz } from "../../../actions/quizResultActions";
+import { fetchQuizzes } from "../../../actions/quizzesActions";
 import ReactSpinnerTimer from "react-spinner-timer";
 
 const ManagerStartQuiz = () => {

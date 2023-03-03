@@ -3,10 +3,10 @@ import "./ManagerQuizManual.css";
 import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { Button } from "react-bootstrap";
-import Loader from "~/components/Loader";
-import { fetchQuizzByQuizId } from "~/actions/quizzesActions";
-import { fetchQuestionsByQuiz } from "~/actions/questionsActions";
-import * as quizzesConstants from "~/constants/quizzesConstants";
+import Loader from "../../../components/Loader";
+import { fetchQuizzByQuizId } from "../../../actions/quizzesActions";
+import { fetchQuestionsByQuiz } from "../../../actions/questionsActions";
+import * as quizzesConstants from "../../../constants/quizzesConstants";
 
 const ManagerQuizManual = () => {
   const navigate = useNavigate();

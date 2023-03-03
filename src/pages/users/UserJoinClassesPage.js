@@ -7,13 +7,13 @@ import {
   fetchSubClass,
   fetchSubClassByUserId,
   joinSubClass,
-} from "~/actions/subClassActions";
+} from "../../actions/subClassActions";
 import "./UserJoinClassesPage.css";
 
 import * as subClassConstants from "../../constants/subClassConstants";
-import * as subjectsConstants from "~/constants/subjectsConstants";
+import * as subjectsConstants from "../../constants/subjectsConstants";
 import swal from "sweetalert";
-import { fetchSubjects } from "~/actions/subjectsActions";
+import { fetchSubjects } from "../../actions/subjectsActions";
 
 function UserJoinClassesPage() {
   // const categoriesReducer = useSelector((state) => state.categoriesReducer);

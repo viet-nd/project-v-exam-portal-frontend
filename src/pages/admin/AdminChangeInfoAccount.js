@@ -7,14 +7,14 @@ import {
   deleteAccount,
   fetchUserByUserId,
   updateUser,
-} from "~/actions/userActions";
+} from "../../actions/userActions";
 import "./AdminChangeInfoAccount.css";
-import * as authConstants from "~/constants/authConstants";
-import { deleteImage, uploadAvatar } from "~/actions/fileActions";
-import { Button } from "~/components/Button";
-import { Image } from "~/components/Image";
-import * as userConstants from "~/constants/userConstants";
-import * as urlGlobal from "~/constants/urlConstants";
+import * as authConstants from "../../constants/authConstants";
+import { deleteImage, uploadAvatar } from "../../actions/fileActions";
+import { Button } from "../../components/Button";
+import { Image } from "../../components/Image";
+import * as userConstants from "../../constants/userConstants";
+import * as urlGlobal from "../../constants/urlConstants";
 
 function AdminChangeInfoAccount() {
   const urlParams = new URLSearchParams(window.location.search);

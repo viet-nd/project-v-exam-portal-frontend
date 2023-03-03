@@ -4,17 +4,17 @@ import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import {
   fetchQuizResult,
-} from "~/actions/quizResultActions";
-import * as quizResultConstants from "~/constants/quizResultConstants";
-import Message from "~/components/Message";
+} from "../../../actions/quizResultActions";
+import * as quizResultConstants from "../../../constants/quizResultConstants";
+import Message from "../../../components/Message";
 import { Link } from "react-router-dom";
 import { Form, Table } from "react-bootstrap";
-import { fetchSubjects } from "~/actions/subjectsActions";
-import { fetchSubClass } from "~/actions/subClassActions";
-import * as subjectsConstants from "~/constants/subjectsConstants";
-import * as subClassConstants from "~/constants/subClassConstants";
-import { fetchAllUser } from "~/actions/userActions";
-import * as userConstants from "~/constants/userConstants";
+import { fetchSubjects } from "../../../actions/subjectsActions";
+import { fetchSubClass } from "../../../actions/subClassActions";
+import * as subjectsConstants from "../../../constants/subjectsConstants";
+import * as subClassConstants from "../../../constants/subClassConstants";
+import { fetchAllUser } from "../../../actions/userActions";
+import * as userConstants from "../../../constants/userConstants";
 
 const ManagerQuizResultPage = () => {
   const dispatch = useDispatch();

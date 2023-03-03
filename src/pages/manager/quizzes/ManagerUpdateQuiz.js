@@ -6,8 +6,8 @@ import swal from "sweetalert";
 import { useDispatch, useSelector } from "react-redux";
 import * as quizzesConstants from "../../../constants/quizzesConstants";
 import { fetchQuizzes, updateQuiz } from "../../../actions/quizzesActions";
-import { fetchSubjects } from "~/actions/subjectsActions";
-import { fetchSubClass } from "~/actions/subClassActions";
+import { fetchSubjects } from "../../../actions/subjectsActions";
+import { fetchSubClass } from "../../../actions/subClassActions";
 
 const ManagerUpdateQuiz = () => {
   const navigate = useNavigate();

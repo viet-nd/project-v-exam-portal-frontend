@@ -8,8 +8,8 @@ import "./ManagerUpdateQuestionPage.css";
 import {
   updateQuestion,
 } from "../../../actions/questionsActions";
-import { deleteImage, uploadQuestion } from "~/actions/fileActions";
-import * as urlGlobal from "~/constants/urlConstants";
+import { deleteImage, uploadQuestion } from "../../../actions/fileActions";
+import * as urlGlobal from "../../../constants/urlConstants";
 
 
 const ManagerUpdateQuestionPage = () => {

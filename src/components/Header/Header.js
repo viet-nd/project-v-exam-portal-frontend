@@ -2,7 +2,7 @@ import classNames from "classnames/bind";
 import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
-import routesConfig from "~/config/routes";
+import routesConfig from "../../config/routes";
 import styles from "./Header.module.scss";
 import HeadlessTippy from "@tippyjs/react/headless";
 import "tippy.js/dist/tippy.css";
@@ -11,8 +11,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Image } from "../Image";
 import { faAddressCard } from "@fortawesome/free-regular-svg-icons";
 import { faRightFromBracket } from "@fortawesome/free-solid-svg-icons";
-import * as urlGlobal from "~/constants/urlConstants";
-import images from "~/assets/images";
+import * as urlGlobal from "../../constants/urlConstants";
+import images from "../../assets/images";
 
 const cx = classNames.bind(styles);
 

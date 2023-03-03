@@ -4,13 +4,13 @@ import { useNavigate } from "react-router-dom";
 import "./AdminProfilePage.css";
 
 //custome
-import { Image } from "~/components/Image";
-import { Button } from "~/components/Button";
-import { deleteImage, uploadAvatar } from "~/actions/fileActions";
-import { changePassword, updateUser } from "~/actions/userActions";
+import { Image } from "../../components/Image";
+import { Button } from "../../components/Button";
+import { deleteImage, uploadAvatar } from "../../actions/fileActions";
+import { changePassword, updateUser } from "../../actions/userActions";
 import * as authConstants from "../../constants/authConstants";
 import swal from "sweetalert";
-import * as urlGlobal from "~/constants/urlConstants";
+import * as urlGlobal from "../../constants/urlConstants";
 
 const AdminProfilePage = () => {
   const dispatch = useDispatch();

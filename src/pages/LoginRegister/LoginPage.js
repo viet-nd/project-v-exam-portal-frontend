@@ -8,7 +8,6 @@ import { login } from "../../actions/authActions";
 import Loader from "../../components/Loader";
 import * as authConstants from "../../constants/authConstants";
 
-import { LoginSignupLayout } from "~/layouts/LoginSignupLayout";
 import classNames from "classnames/bind";
 import styles from "./LoginPage.module.scss";
 

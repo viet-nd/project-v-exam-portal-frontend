@@ -8,9 +8,9 @@ import {
 import { Card, Col, Form, Row } from "react-bootstrap";
 import {
   fetchSubClassByUserId,
-} from "~/actions/subClassActions";
+} from "../../actions/subClassActions";
 import * as quizResultConstants from "../../constants/quizResultConstants";
-import { fetchQuizResultByUserId } from "~/actions/quizResultActions";
+import { fetchQuizResultByUserId } from "../../actions/quizResultActions";
 
 const UserQuizzesPage = () => {
   const navigate = useNavigate();

@@ -2,12 +2,12 @@ import React, { useEffect, useRef, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import "./UserProfilePage.css";
-import * as urlGlobal from "~/constants/urlConstants";
+import * as urlGlobal from "../../constants/urlConstants";
 
-import { Image } from "~/components/Image";
-import { Button } from "~/components/Button";
-import { deleteImage, uploadAvatar } from "~/actions/fileActions";
-import { changePassword, updateUser } from "~/actions/userActions";
+import { Image } from "../../components/Image";
+import { Button } from "../../components/Button";
+import { deleteImage, uploadAvatar } from "../../actions/fileActions";
+import { changePassword, updateUser } from "../../actions/userActions";
 import * as authConstants from "../../constants/authConstants";
 import swal from "sweetalert";
 

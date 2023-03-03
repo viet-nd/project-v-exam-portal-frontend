@@ -2,13 +2,13 @@ import { useEffect, useState } from "react";
 import { Table } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import { fetchSubClass } from "~/actions/subClassActions";
-import { fetchSubjects } from "~/actions/subjectsActions";
-import Message from "~/components/Message";
-import * as subClassConstants from "~/constants/subClassConstants";
-import * as userConstants from "~/constants/userConstants";
-import * as subjectsConstants from "~/constants/subjectsConstants";
-import { fetchAllUser } from "~/actions/userActions";
+import { fetchSubClass } from "../../actions/subClassActions";
+import { fetchSubjects } from "../../actions/subjectsActions";
+import Message from "../../components/Message";
+import * as subClassConstants from "../../constants/subClassConstants";
+import * as userConstants from "../../constants/userConstants";
+import * as subjectsConstants from "../../constants/subjectsConstants";
+import { fetchAllUser } from "../../actions/userActions";
 import "./AdminManagerSubClassPage.css";
 
 function AdminManagerSubClassesPage() {

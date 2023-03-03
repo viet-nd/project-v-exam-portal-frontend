@@ -6,11 +6,11 @@ import { Button, ListGroup } from "react-bootstrap";
 import Loader from "../../../components/Loader";
 import Message from "../../../components/Message";
 import swal from "sweetalert";
-import * as subjectsConstants from "~/constants/subjectsConstants";
+import * as subjectsConstants from "../../../constants/subjectsConstants";
 import {
   deleteSubject,
   fetchSubjects,
-} from "~/actions/subjectsActions";
+} from "../../../actions/subjectsActions";
 
 const ManagerSubjectsPage = () => {
   const navigate = useNavigate();

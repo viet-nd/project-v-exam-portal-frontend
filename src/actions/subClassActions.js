@@ -1,4 +1,4 @@
-import * as subClassConstants from "~/constants/subClassConstants";
+import * as subClassConstants from "../constants/subClassConstants";
 import subClassServices from "../services/subClassServices";
 
 export const fetchSubClass = async (dispatch, subClassId = null, token) => {

@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import { Button, Table } from "react-bootstrap";
 import { Link, useNavigate } from "react-router-dom";
-import { fetchAllUser, searchByKeyword } from "~/actions/userActions";
-import Message from "~/components/Message";
+import { fetchAllUser, searchByKeyword } from "../../actions/userActions";
+import Message from "../../components/Message";
 import "./AdminManagerAccountPage.css";
-import * as userConstants from "~/constants/userConstants";
+import * as userConstants from "../../constants/userConstants";
 import { useDispatch, useSelector } from "react-redux";
 
 function AdminManagerAccountPage() {

@@ -6,8 +6,8 @@ import * as questionsConstants from "../../../constants/questionsConstants";
 import "./ManagerAddQuestionsPage.css";
 import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import { Button } from "~/components/Button";
-import { uploadQuestion } from "~/actions/fileActions";
+import { Button } from "../../../components/Button";
+import { uploadQuestion } from "../../../actions/fileActions";
 
 const ManagerAddQuestionsPage = () => {
   const [content, setContent] = useState("");

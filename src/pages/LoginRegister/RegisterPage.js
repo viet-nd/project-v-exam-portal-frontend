@@ -9,7 +9,7 @@ import { FaEye, FaEyeSlash } from "react-icons/fa";
 import * as authConstants from "../../constants/authConstants";
 import { Link } from "react-router-dom";
 
-import { LoginSignupLayout } from "~/layouts/LoginSignupLayout";
+import { LoginSignupLayout } from "../../layouts/LoginSignupLayout";
 import classNames from "classnames/bind";
 import styles from "./RegisterPage.module.scss";
 import { uploadAvatar } from "../../actions/fileActions";

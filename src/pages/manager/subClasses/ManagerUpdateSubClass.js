@@ -3,8 +3,8 @@ import { Button, Form } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate, useParams } from "react-router-dom";
 import swal from "sweetalert";
-import { updateSubClass } from "~/actions/subClassActions";
-import * as subClassConstants from "~/constants/subClassConstants";
+import { updateSubClass } from "../../../actions/subClassActions";
+import * as subClassConstants from "../../../constants/subClassConstants";
 import "./ManagerUpdateSubClass.css";
 
 function ManagerUpdateSubClass() {

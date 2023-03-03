@@ -7,10 +7,10 @@ import Message from "../../../components/Message";
 import { deleteQuiz, fetchQuizzes } from "../../../actions/quizzesActions";
 import * as quizzesConstants from "../../../constants/quizzesConstants";
 import swal from "sweetalert";
-import { fetchSubClass } from "~/actions/subClassActions";
-import { fetchSubjects } from "~/actions/subjectsActions";
-import * as subClassConstants from "~/constants/subClassConstants";
-import * as subjectsConstants from "~/constants/subjectsConstants";
+import { fetchSubClass } from "../../../actions/subClassActions";
+import { fetchSubjects } from "../../../actions/subjectsActions";
+import * as subClassConstants from "../../../constants/subClassConstants";
+import * as subjectsConstants from "../../../constants/subjectsConstants";
 
 const ManagerQuizzesPage = () => {
   const navigate = useNavigate();

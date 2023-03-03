@@ -5,8 +5,8 @@ import { useDispatch, useSelector } from "react-redux";
 import swal from "sweetalert";
 import { useParams } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
-import * as sunjectConstants from "~/constants/subjectsConstants"
-import { updateSubject } from "~/actions/subjectsActions";
+import * as sunjectConstants from "../../../constants/subjectsConstants"
+import { updateSubject } from "../../../actions/subjectsActions";
 
 const ManagerUpdateSubjectPage = () => {
   const dispatch = useDispatch();

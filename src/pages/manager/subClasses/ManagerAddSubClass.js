@@ -3,8 +3,8 @@ import { Button, Form } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import swal from "sweetalert";
-import { addSubClass } from "~/actions/subClassActions";
-import * as subClassConstants from "~/constants/subClassConstants";
+import { addSubClass } from "../../../actions/subClassActions";
+import * as subClassConstants from "../../../constants/subClassConstants";
 
 function ManagerAddSubClass() {
   const [name, setName] = useState("");

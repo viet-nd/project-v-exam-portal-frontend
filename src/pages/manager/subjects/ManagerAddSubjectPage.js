@@ -4,8 +4,8 @@ import { Button, Form } from "react-bootstrap";
 import { useDispatch } from "react-redux";
 import swal from "sweetalert";
 import { useNavigate } from "react-router-dom";
-import { addSubject } from "~/actions/subjectsActions";
-import * as subjectsConstants from "~/constants/subjectsConstants";
+import { addSubject } from "../../../actions/subjectsActions";
+import * as subjectsConstants from "../../../constants/subjectsConstants";
 
 const ManagerAddSubjectPage = () => {
   const [title, setTitle] = useState("");

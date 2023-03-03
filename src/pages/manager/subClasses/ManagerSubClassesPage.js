@@ -3,14 +3,14 @@ import { Button, Form, ListGroup } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import swal from "sweetalert";
-import { deleteSubClass, fetchSubClass } from "~/actions/subClassActions";
-import Message from "~/components/Message";
+import { deleteSubClass, fetchSubClass } from "../../../actions/subClassActions";
+import Message from "../../../components/Message";
 import "./ManagerSubClassesPage.css";
-import * as subClassConstants from "~/constants/subClassConstants";
-import { fetchAllUser } from "~/actions/userActions";
-import * as userConstants from "~/constants/userConstants";
-import { fetchSubjects } from "~/actions/subjectsActions";
-import * as subjectsConstants from "~/constants/subjectsConstants";
+import * as subClassConstants from "../../../constants/subClassConstants";
+import { fetchAllUser } from "../../../actions/userActions";
+import * as userConstants from "../../../constants/userConstants";
+import { fetchSubjects } from "../../../actions/subjectsActions";
+import * as subjectsConstants from "../../../constants/subjectsConstants";
 
 function ManagerSubClassPage() {
   const navigate = useNavigate();

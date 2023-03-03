@@ -7,7 +7,7 @@ import { useDispatch } from "react-redux";
 import { deleteQuestion } from "../actions/questionsActions";
 import swal from "sweetalert";
 import * as questionsConstants from "../constants/questionsConstants";
-import * as urlGlobal from "~/constants/urlConstants";
+import * as urlGlobal from "../constants/urlConstants";
 
 const Question = ({ number, answers, question, isManager = false }) => {
   const dispatch = useDispatch();

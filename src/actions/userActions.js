@@ -1,6 +1,6 @@
-import userServices from "~/services/userServices";
-import * as authConstants from "~/constants/authConstants";
-import * as userConstants from "~/constants/userConstants";
+import userServices from "../services/userServices";
+import * as authConstants from "../constants/authConstants";
+import * as userConstants from "../constants/userConstants";
 
 export const updateUser = async (dispatch, userId, user, token) => {
   const data = await userServices.updateUser(userId, user, token);

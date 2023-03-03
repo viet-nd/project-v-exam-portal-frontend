@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 import Sidebar from "../../components/Sidebar/Sidebar";
 import "./ManagerProfilePage.css";
 import Image from "react-bootstrap/Image";
-import { fetchSubject, fetchSubjects } from "~/actions/subjectsActions";
+import { fetchSubjects } from "../../actions/subjectsActions";
 
 const ManagerProfilePage = () => {
   const dispatch = useDispatch();
